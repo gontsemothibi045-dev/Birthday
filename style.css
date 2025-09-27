@@ -1,0 +1,36 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg,#f9a8d4, #f3e8ff);
+    text-align: center;
+    color: #333;
+   
+}
+
+
+
+
+.container {
+    padding: 20px;
+}
+
+.cake-image {
+    height: 150px;
+    width:200px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gallery-photo {
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
